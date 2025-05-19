@@ -6,6 +6,8 @@ export default function ProductCard({ title, price, image , id}) {
   
   return (
     <div className="card rounded shadow-sm p-3 h-100 text-center hover-shadow">
+    <button>Agregar al carro</button>
+
       <img
         src={image}
         alt={title}
